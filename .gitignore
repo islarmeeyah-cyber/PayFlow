@@ -62,11 +62,9 @@ jspm_packages/
 .yarn-integrity
 
 # dotenv environment variable files
-.env
 .env.development.local
 .env.test.local
 .env.production.local
-.env.local
 
 # parcel-bundler cache (https://parceljs.org/)
 .cache
@@ -141,7 +139,6 @@ node_modules
 npm-debug.log
 
 # IDE files
-.vscode/
 .idea/
 *.swp
 *.swo
@@ -192,3 +189,7 @@ contract/target/
 
 # Webhook Dead Letter Queue
 data/webhook-dlq.jsonl
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+config.bat
